@@ -1,0 +1,16 @@
+block content
+    h1 Customer Orders
+    ul
+        for order in data
+            li
+                div
+                    b Customer Name:
+                    =order.customer_name
+                    div
+                        b Address:
+                        =order.address
+                    div
+                        b Description:
+                        =order.description
+        else
+            li No orders currently.

@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1= title
+
+    main
+      p
+        | Welcome to the #{title} site to help you build what you need for your Better Botz workforce!
+
+    footer
+      | Powered by 
+      a(href='https://astra.datastax.com') DataStax Astra
+      | !
+      | Lots of HTML turned into Jade with 
+      a(href='https://html2jade.org/') html2jade
+      | . Built by all the robots at 
+      a(href='https://twitter.com/betterbotz/') Better Botz
+      | !
+    
